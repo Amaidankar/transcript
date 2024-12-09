@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e6885a49.css",
+    "main.js": "./static/js/main.db2c35f5.js",
+    "static/js/453.672071a3.chunk.js": "./static/js/453.672071a3.chunk.js",
+    "static/media/GeistMonoVF.woff": "./static/media/GeistMonoVF.2b49028de50fff5c0296.woff",
+    "static/media/GeistVF.woff": "./static/media/GeistVF.c14dabdcab679dcff026.woff",
+    "index.html": "./index.html",
+    "main.e6885a49.css.map": "./static/css/main.e6885a49.css.map",
+    "main.db2c35f5.js.map": "./static/js/main.db2c35f5.js.map",
+    "453.672071a3.chunk.js.map": "./static/js/453.672071a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6885a49.css",
+    "static/js/main.db2c35f5.js"
+  ]
+}

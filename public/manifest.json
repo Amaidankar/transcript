@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Transcript",
+  "version": "1.2",
+  "short_name": "YouTube Transcript",
+  "description": "YouTube Transcript Viewer – Easy Access to Video Transcripts",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "YouTube Transcript"
+  },
+  "oauth2": {
+    "client_id": "351106628573-1qeql63rb36u1836g4qlbo9ifao607ur.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ],
+  "icons": { }
+}

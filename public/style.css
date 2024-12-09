@@ -1,0 +1,12 @@
+/* public/styles.css */
+body {
+    background-color: lightblue;
+    color: #333;
+  }
+  
+  .custom-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
